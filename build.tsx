@@ -44,7 +44,7 @@ const DirectoryListing: React.FC<{
     b: string;
 }> = ({ path, items, b }) => (
     <Skeleton b={b}>
-        <h1>Taya Crystals</h1>
+        <h1><a href="/">Taya Crystals</a></h1>
         <WindowSection path={path}>
             <div className="icon-grid">
                 {items.map(item => (
@@ -60,7 +60,7 @@ const DirectoryListing: React.FC<{
 
 const HtmlViewer: React.FC<{ path: string; content: string; b: string }> = ({ path, content, b }) => (
     <Skeleton b={b}>
-        <h1>Taya Crystals</h1>
+        <h1><a href="/">Taya Crystals</a></h1>
         <WindowSection path={path}>
             <div className="file-viewer">
                 <div dangerouslySetInnerHTML={{ __html: content }} />
