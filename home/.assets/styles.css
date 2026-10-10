@@ -22,6 +22,11 @@ h1 {
     text-shadow: 6px 6px #29142a;
 }
 
+h1 a {
+    color: inherit;
+    text-decoration: none;
+}
+
 a {
     cursor: url('cursors/pointer4x.png'), pointer;
 }
